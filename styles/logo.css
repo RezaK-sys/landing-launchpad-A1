@@ -31,12 +31,25 @@
 
 /* Header styles */
 .header{
-    width: 1440px;              
-    height: 698px;
+   /*  width: 1440px;  */            
+   /*  height: 698px;*/
     background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    background-size: 1440px 698px ;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: center top;
+    /* 
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  height: 698px; 
+  background-image: url('your-image.jpg'); 
+  background-size: 1440px 698px; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #f5f5f5; */
+    
     
     }
 /* Nav styles */
@@ -44,7 +57,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin:0px 150px;
+    
 }
 
 .nav-title{
@@ -80,4 +94,616 @@ nav ul li{
 }
 .banner-align{
     text-align: center;
+}
+
+/* main styles */
+
+.See {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 159px 116px 141px;
+  align-items: center;
+}
+
+.section1-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.section1-content{
+    max-width: 520px;
+}
+.section1-description{
+    font-size: 24px;
+    color: #252432;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.section1-img{
+    border-radius: 48px;
+}
+
+.section2-bg{
+background-color:#4E47FF1A;
+margin: 116px 159px 137px 141px;
+border-radius: 24px; 
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+flex-direction: column;
+max-width:1140px;
+height: 328px;
+}
+
+.section2-title
+{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    /*padding-top: 50px;
+    padding-right: 142px;
+    padding-bottom: 211px;
+    padding-left: 142px;*/
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+.stat-container{
+    width: 856px;
+    padding: 50px 142px;
+    margin: 80px auto;
+    text-align: center;
+    width: fit-content;
+    box-sizing: border-box ;
+   /* margin: 0 auto; */
+}
+.stat-box{
+    flex: 1;
+}
+.stat-number{
+    font-size: 80px;
+    font-weight: bold;
+}
+.stat-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000080;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.text-primary{
+    color: #4E47FF;
+    }
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+    }
+
+/* Header styles */
+.header{
+   /*  width: 1440px;  */            
+   /*  height: 698px;*/
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    background-size: 1440px 698px ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* 
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  height: 698px; 
+  background-image: url('your-image.jpg'); 
+  background-size: 1440px 698px; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #f5f5f5; */
+    
+    
+    }
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 150px;
+    
+}
+
+.nav-title{
+    font-size: 34px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+
+}
+.banner-content{
+    max-width: 905px;
+
+}
+.banner-title{
+    color: #252432;
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-align{
+    text-align: center;
+}
+
+/* main styles */
+
+.See {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 159px 116px 141px;
+  align-items: center;
+}
+
+.section1-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.section1-content{
+    max-width: 520px;
+}
+.section1-description{
+    font-size: 24px;
+    color: #252432;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.section1-img{
+    border-radius: 48px;
+}
+
+.section2-bg{
+background-color:#4E47FF1A;
+margin: 116px 159px 137px 141px;
+border-radius: 24px; 
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+flex-direction: column;
+max-width:1140px;
+height: 328px;
+}
+
+.section2-title
+{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    /*padding-top: 50px;
+    padding-right: 142px;
+    padding-bottom: 211px;
+    padding-left: 142px;*/
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+.stat-container{
+    width: 856px;
+    padding: 50px 142px;
+    margin: 80px auto;
+    text-align: center;
+    width: fit-content;
+    box-sizing: border-box ;
+   /* margin: 0 auto; */
+}
+.stat-box{
+    flex: 1;
+}
+.stat-number{
+    font-size: 80px;
+    font-weight: bold;
+}
+.stat-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000080;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.text-primary{
+    color: #4E47FF;
+    }
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+    }
+
+/* Header styles */
+.header{
+   /*  width: 1440px;  */            
+   /*  height: 698px;*/
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    background-size: 1440px 698px ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* 
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  height: 698px; 
+  background-image: url('your-image.jpg'); 
+  background-size: 1440px 698px; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #f5f5f5; */
+    
+    
+    }
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 150px;
+    
+}
+
+.nav-title{
+    font-size: 34px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+
+}
+.banner-content{
+    max-width: 905px;
+
+}
+.banner-title{
+    color: #252432;
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-align{
+    text-align: center;
+}
+
+/* main styles */
+
+.See {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 159px 116px 141px;
+  align-items: center;
+}
+
+.section1-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.section1-content{
+    max-width: 520px;
+}
+.section1-description{
+    font-size: 24px;
+    color: #252432;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.section1-img{
+    border-radius: 48px;
+}
+
+.section2-bg{
+background-color:#4E47FF1A;
+margin: 116px 159px 137px 141px;
+border-radius: 24px; 
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+flex-direction: column;
+max-width:1140px;
+height: 328px;
+}
+
+.section2-title
+{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    /*padding-top: 50px;
+    padding-right: 142px;
+    padding-bottom: 211px;
+    padding-left: 142px;*/
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+.stat-container{
+    width: 856px;
+    padding: 50px 142px;
+    margin: 80px auto;
+    text-align: center;
+    width: fit-content;
+    box-sizing: border-box ;
+   /* margin: 0 auto; */
+}
+.stat-box{
+    flex: 1;
+}
+.stat-number{
+    font-size: 80px;
+    font-weight: bold;
+}
+.stat-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000080;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.text-primary{
+    color: #4E47FF;
+    }
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+    }
+
+/* Header styles */
+.header{
+   /*  width: 1440px;  */            
+   /*  height: 698px;*/
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    background-size: 1440px 698px ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* 
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  height: 698px; 
+  background-image: url('your-image.jpg'); 
+  background-size: 1440px 698px; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #f5f5f5; */
+    
+    
+    }
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 150px;
+    
+}
+
+.nav-title{
+    font-size: 34px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+
+}
+.banner-content{
+    max-width: 905px;
+
+}
+.banner-title{
+    color: #252432;
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-align{
+    text-align: center;
+}
+
+/* main styles */
+
+.See {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 159px 116px 141px;
+  align-items: center;
+}
+
+.section1-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.section1-content{
+    max-width: 520px;
+}
+.section1-description{
+    font-size: 24px;
+    color: #252432;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.section1-img{
+    border-radius: 48px;
+}
+
+.section2-bg{
+background-color:#4E47FF1A;
+margin: 116px 159px 137px 141px;
+border-radius: 24px; 
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+flex-direction: column;
+max-width:1140px;
+height: 328px;
+}
+
+.section2-title
+{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    /*padding-top: 50px;
+    padding-right: 142px;
+    padding-bottom: 211px;
+    padding-left: 142px;*/
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+.stat-container{
+    width: 856px;
+    padding: 50px 142px;
+    margin: 80px auto;
+    text-align: center;
+    width: fit-content;
+    box-sizing: border-box ;
+   /* margin: 0 auto; */
+}
+.stat-box{
+    flex: 1;
+}
+.stat-number{
+    font-size: 80px;
+    font-weight: bold;
+}
+.stat-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000080;
 }
